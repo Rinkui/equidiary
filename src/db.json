@@ -1,0 +1,36 @@
+{
+  "horse": [
+    {
+      "id": 0,
+      "name": "Tequila du Lys",
+      "birthDate": "2007-04-09T23:00:00.000Z",
+      "size": "172 cm"
+    }
+  ],
+  "appointment": [
+    {
+      "date": "2018-11-20T23:00:00.000Z",
+      "type": "Vétérinaire",
+      "commentaire": "Prise de sang pour Lyme",
+      "id": 1
+    },
+    {
+      "date": "2018-11-25T23:00:00.000Z",
+      "type": "Analyse",
+      "commentaire": "Résultat Lyme -> Positive",
+      "id": 2
+    },
+    {
+      "date": "2018-11-30T23:00:00.000Z",
+      "type": "Traitement",
+      "commentaire": "Début du traitement Lyme",
+      "id": 3
+    },
+    {
+      "date": "2019-01-03T23:00:00.000Z",
+      "type": "Traitement",
+      "commentaire": "Fin du traitement de Lyme",
+      "id": 4
+    }
+  ]
+}
