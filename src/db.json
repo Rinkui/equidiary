@@ -31,6 +31,12 @@
       "type": "Traitement",
       "commentaire": "Fin du traitement de Lyme",
       "id": 4
+    },
+    {
+      "date": "2019-09-09T22:00:00.000Z",
+      "type": "Observation",
+      "commentaire": "Début d'abcès",
+      "id": 5
     }
   ]
 }
