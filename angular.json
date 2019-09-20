@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "horseAdvisor": {
+    "equidiary": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/horseAdvisor",
+            "outputPath": "dist/equidiary",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,19 +58,19 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "horseAdvisor:build",
+            "browserTarget": "equidiary:build",
             "port": 4200
           },
           "configurations": {
             "production": {
-              "browserTarget": "horseAdvisor:build:production"
+              "browserTarget": "equidiary:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "horseAdvisor:build"
+            "browserTarget": "equidiary:build"
           }
         },
         "test": {
@@ -104,7 +104,7 @@
         }
       }
     },
-    "horseAdvisor-e2e": {
+    "equidiary-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -113,11 +113,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "horseAdvisor:serve"
+            "devServerTarget": "equidiary:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "horseAdvisor:serve:production"
+              "devServerTarget": "equidiary:serve:production"
             }
           }
         },
@@ -133,5 +133,5 @@
       }
     }
   },
-  "defaultProject": "horseAdvisor"
+  "defaultProject": "Equidiary"
 }

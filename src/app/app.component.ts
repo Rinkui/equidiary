@@ -7,5 +7,5 @@ import {AppointmentDataService} from './api/api.appointmentDataService';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'HorseAdvisor';
+  title = 'Equidiary';
 }
